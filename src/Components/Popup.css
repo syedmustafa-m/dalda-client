@@ -1,0 +1,77 @@
+body {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+html {
+    overflow-y: scroll;
+    background: #FDF9D4;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.modal-content {
+    position: relative;
+    top: -700px;
+    background: white;
+    text-align: center;
+    /* margin: 0 auto !important; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px 111151px rgb(0 0 0 / 42%);
+    border-radius: 16px;
+    padding: 30px 30px 0px 30px;
+    margin: 0 auto;
+    width: 443px;
+}
+
+button.btn.btn-secondary{
+    font-size: 17px;
+    text-align: center;
+    color: #4F555A;
+    font-family:'Gilroy', sans-serif;
+    border: none;
+    background: transparent;
+    border-right: 1px solid #EFEFF4;
+    font-weight: 600;
+}
+
+button.btn.btn-primary {
+    font-size: 17px;
+    text-align: center;
+    color: #225524;
+    font-family:'Gilroy', sans-serif;
+    border: none;
+    background: transparent;
+    font-weight: 600;
+}
+.modal-footer {
+    display: flex;
+    justify-content: center;
+    width: 113%;
+    position: relative;
+    left: -29px;
+    border-top: 1px solid #EFEFF4;
+    margin-top: 34px;
+}
+.modal-footer button {
+    padding: 17px 52px 23px;
+}
+
+
+
+
+
+/*************
+***************** Responsive and media query about 999px
+*****************/
+
+@media (max-width: 999px) {
+    .modal-content{
+        width: 70%;
+    }
+  }
+
+
+
+/*************
+***************** Responsive and media query about 999px
+*****************/

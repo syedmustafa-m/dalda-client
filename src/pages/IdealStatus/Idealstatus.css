@@ -1,0 +1,130 @@
+/*************Container
+*****************/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.upperSection {
+    background: white;
+    border-radius: 26.285px;
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 39px 0px;
+    box-shadow: 0px 8.76168px 26.285px rgba(34, 85, 36, 0.09);
+}
+
+.status {
+    width: 1000px;
+    margin: 0 auto;
+}
+tr th {
+    color: #2d3540;
+}
+tbody tr {
+    color: #2d3540;
+    font-weight: 400;
+}
+
+#approved {
+    background: #225524;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+}
+#rejected {
+    background: #b02a37;
+    border-radius: 6px;
+    border: none;
+    color: white;
+
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+}
+#draft {
+    background: #0d6efd;
+    border-radius: 6px;
+    border: none;
+
+    color: white;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+}
+
+#review {
+    background: #997404;
+    border-radius: 6px;
+    border: none;
+
+    color: white;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+}
+.fam1 img {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.fam1 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.modal-title.h4 h1 {
+    font-size: 24.02px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+}
+
+#txtarea {
+    resize: none;
+    width: 385px;
+    height: 131px;
+}
+
+#txtarea {
+    padding: 12px;
+    font-family: "Gilroy", sans-serif;
+    color: #4f555a;
+    border-radius: 6px;
+    border: 1px solid #efefef;
+    font-size: 16px;
+    outline: none;
+}
+#txtarea::placeholder {
+    font-family: "Gilroy", sans-serif;
+    color: #4f555a;
+    font-size: 16px;
+
+    font-weight: 400;
+}
+.modal-body p {
+    color: #4f555a;
+    line-height: 16px;
+    text-align: center;
+    color: #828282;
+    font-weight: 500;
+}
+
+@media (max-width: 999px) {
+    .modal-content {
+        width: 70%;
+        top: -500px;
+    }
+
+    .modal-body {
+        position: relative;
+        overflow: scroll;
+    }
+    #txtarea {
+        width: 90%;
+    }
+    .checkBoxSectionInner1 {
+        margin: 0 auto;
+    }
+}

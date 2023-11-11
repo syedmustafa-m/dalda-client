@@ -1,0 +1,126 @@
+html{
+    overflow: hidden;
+}
+
+.Navbar {
+    background-color: #F3C50D;
+    display: flex;
+    padding: 0px 39px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+ 
+    justify-content: space-between;
+    box-shadow: 0px 0px 18px -7px rgba(0,0,12,0.8);
+    margin-left: calc(-100vw / 2 + 100% / 2);
+    margin-right: calc(-100vw / 2 + 100% / 2);
+    margin-bottom: 70px;
+}
+nav.Navbar__Items a {
+  color: white;
+  text-decoration: none;
+}
+  .Navbar__Link {
+    padding-right: 8px;
+  }
+  
+  .Navbar__Items {
+    display: flex;
+  }
+  
+  .Navbar__Items--right {
+    margin-left:auto;
+  }
+  
+  .Navbar__Link-toggle {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+     
+    }
+    .Navbar__Link {
+        padding: 9px;
+        font-size: 21px;
+    }
+  .Navbar__Items {
+      display:none;
+    }
+      
+  .Navbar__Items--right {
+      margin-left:0;
+    }
+      
+  .Navbar__ToggleShow {
+      display: flex;
+    }
+ 
+.Navbar {
+    justify-content: center;
+}
+  .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+     } 
+ 
+  }
+
+  .none{
+    display: none;
+  }
+
+  .Navbar__Link {
+ 
+    font-size: 18px;
+    padding: 0px 13px;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+}
+
+.Navbar__Link.Navbar__Link-brand {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.14);
+    margin: 12px 0px;
+}
+
+.Navbar__Link.Navbar__Link-brand img {
+    width: 99px;
+    height: 80px;
+    padding: 10px 1px;
+}
+
+
+
+
+@media (max-width: 999px) {
+  .Navbar__Link {
+    font-size: 23px;
+    /* text-align: left; */
+    padding: 3px 0px;
+}
+.Navbar__ToggleShow { 
+  padding: 20px;
+}
+.Navbar__Link {
+  font-size: 30px;
+ 
+  padding: 3px 0px;
+  top: 37px;
+}
+nav.Navbar__Items.Navbar__ToggleShow a {
+  text-align: left;
+  font-size: 20px;
+}
+.Navbar{
+  align-items: flex-start;
+}
+}

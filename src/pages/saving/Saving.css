@@ -1,0 +1,197 @@
+ /*************Container
+*****************/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.upperSection {
+    background: white;
+    border-radius: 26.285px;
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 21px 0px;
+    box-shadow: 0px 8.76168px 26.285px rgba(34, 85, 36, 0.09);
+}
+
+
+.main {
+    width: 480px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.main h1 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    margin: 0px;
+}
+.main textarea {
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 6px;
+    padding: 16px 16px 49px;
+    font-size: 16px;
+    outline: none;
+    color: #4F555A;
+}
+.estimate{
+    height: 0px !important;
+    /* padding: 26px 19px !important; */
+    /* line-height: 0; */
+    overflow: hidden;
+}
+.main textarea {
+    resize: none;
+    width: 443px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 6px;
+    overflow-y: hidden;
+    padding: 16px 16px 55px;
+    margin: 11px 0px 30px 0px;
+    font-family:'Gilroy', sans-serif;
+    display: block;
+    font-size: 16px;
+    color: #4F555A;
+}
+.checkbox {
+    display: flex;
+    justify-content: center;
+    column-gap: 63px;
+}
+.checkboxInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 6px;
+    padding: 10px 14px;
+    width: 177px;
+}
+.attachment a{
+    text-align: left;
+    color: #4F555A !important;
+    font-size: 16px;
+}
+.attachment label {
+    color: #4F555A !important;
+}
+.attachment {
+    text-align: right;
+    margin: 20px 0px;
+}
+.btn_action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+
+.submit {
+    background: #225524;
+    box-shadow: 0px 10.5935px 18.5387px 3.53117px rgba(34, 85, 36, 0.19);
+    border-radius: 4.83px;    
+    padding: 16px 24px;
+    color: white;
+    font-family:'Gilroy', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+  }
+  
+  .draft {
+    background: #0D6EFD;
+    box-shadow: 0px 10.5935px 18.5387px 3.53117px rgba(13, 110, 253, 0.19);
+    border-radius: 4.83px;
+    padding: 16px 24px;
+    color: white;
+    font-family:'Gilroy', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+  }
+  
+  .cancel {
+    background: #E02228;
+    padding: 16px 24px;
+    color: white;
+    font-family:'Gilroy', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    box-shadow: 0px 10.5935px 18.5387px 3.53117px rgba(224, 34, 40, 0.19);
+    border-radius: 4.83px;
+  }
+
+  .btn_action button {
+    margin: 14px 20px;
+    width: 100px;
+}
+.modal-title.h4 h1 {
+    font-size: 20px;
+    color: #242E42;
+    font-weight: 500;
+}
+.modal-body p {
+    color: #4F555A;
+}
+
+
+
+
+
+
+
+@media (max-width: 634px) {
+    .upperSection {
+        width: 100%;
+        padding: 35px 0px;
+    }
+}
+
+
+@media (max-width: 999px) {
+    .main textarea {
+        width: 80% !important;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .btn_action button {
+        width: 80%;
+    }
+    .main h1 {
+        text-align: center;
+    }
+    .main{
+        width: 100%;
+    }
+    .checkbox {
+        flex-direction: column;
+    }
+    .checkboxInner {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .btn_action {
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .attachment {
+        text-align: center;
+    }
+}

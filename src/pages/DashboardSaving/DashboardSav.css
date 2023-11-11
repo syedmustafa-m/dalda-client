@@ -1,0 +1,110 @@
+/*************Container
+*****************/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.upperSection {
+    background: white;
+    border-radius: 26.285px;
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 39px 0px;
+    box-shadow: 0px 8.76168px 26.285px rgba(34, 85, 36, 0.09);
+}
+
+.dashbrd {
+    width: 537px;
+    background: #FFFFFF;
+    box-shadow: 0px 1.64651px 8.23256px rgba(0, 0, 0, 0.1);
+    border-radius: 26.29px 26.29px 0px 0px;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.dashbrdInner {
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    text-align: left;
+}
+
+.dashbrdInner  h1{
+   margin: 0px;
+}
+.dashbrdInner  p{
+    margin: 0px;
+ }
+ option{
+    font-size: 15.8421px;
+    color: #4F555A;
+    font-family:'Gilroy', sans-serif;
+ }
+ select#valueDropdown {
+    outline: none;
+    font-family: 'Gilroy', sans-serif;
+}
+.btmImg img {
+    width: 40%;
+}
+.btmImg{
+    position: relative;
+    
+    margin: 80px 0px;
+
+}
+
+.btmImg::before {
+    position: absolute;
+    background: url(https://o.remove.bg/downloads/cde617fe-f7cc-4432-9f82-53dbb3b20561/roundinner-removebg-preview.png);
+    width: 103px;
+    height: 92px;
+    content: '';
+    right: 419px;
+    top: -60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Detailing p {
+    color: #4F555A;
+    font-weight: 500;
+}
+.Detailing {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 1.55349px 7.76744px rgba(0, 0, 0, 0.1);
+    border-radius: 4.71751px;
+}
+.scroll{
+    overflow: scroll;
+}
+.Detailing {
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 1.55349px 7.76744px rgba(0, 0, 0, 0.1);
+    border-radius: 4.71751px;
+    width: 564px;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+.Detailing p {
+    color: #4F555A;
+    font-weight: 500;
+    border-right: 1px solid #E5E5E5;
+}
+@media (max-width: 999px) {
+    .Detailing {
+        flex-direction: column;
+        width: 90%;
+    }
+    .dashbrd{
+        width: 70%;
+    }
+    .checkBoxSectionInner1 select{
+        width: 100% !important;
+    }
+}

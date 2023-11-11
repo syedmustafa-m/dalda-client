@@ -1,0 +1,125 @@
+ /*************Container
+*****************/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.upperSection {
+    background: white;
+    border-radius: 26.285px;
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 39px 0px;
+    box-shadow: 0px 8.76168px 26.285px rgba(34, 85, 36, 0.09);
+}
+
+.checkBoxSection p{
+    color:#000000 ;
+    font-size: 20px;
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+
+.checkBoxSectionInner1 select {
+    width: 100%;
+    border: none;  font-weight: 500;
+    font-size: 15.8903px; 
+    color: #4F555A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    margin-top: 20px !important;
+    padding: 15px 20px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.checkBoxSectionInner1 label{
+    font-weight: 500;
+    font-size: 15.8903px; 
+    color: #4F555A;
+}
+
+select#valueDropdown {
+    outline: none;
+}
+input[type="checkbox"] {
+    width:25px;
+    height: 25px;
+    border-radius: 2px;
+}
+
+  /* Style for the checkbox when checked */
+  input[type="checkbox"]:checked {
+    accent-color: #ECD431 !important;
+    border-radius: 2px;
+  }
+  .checkbox-alias .checkincon {  
+    color: #ffffff;
+    }
+
+.nxt button{
+    margin: 20px 0px;
+    background: #E02228;
+    box-shadow: 0px 10.5935px 18.5387px 3.53117px rgba(224, 34, 40, 0.17);
+    border-radius: 8.82793px;
+    border: none;
+    padding: 16px 24px;
+    width: 116px;
+    position: relative;
+    left: 264px;
+    font-size: 16px;    font-family:'Gilroy', sans-serif;
+    color: #FFFFFF;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+ 
+
+
+
+.round img {
+    transform: rotate(180deg);
+    position: relative;
+    left: -607px;
+}
+
+
+#fam{
+    width: 400px;
+}
+
+
+@media (max-width: 634px) {
+    .upperSection {
+        width: 100%;
+        padding: 35px 0px;
+    }
+}
+@media (max-width: 999px) {
+    #fam{
+        width: 300px;
+    }
+    .upperSection h1 {
+        font-size: 27px;
+    }
+    .checkBoxSectionInner1 {
+        width: 75%;
+    }
+    .nxt button{
+        left: 0px;
+    }
+}
+
+
+
+
+
+ 

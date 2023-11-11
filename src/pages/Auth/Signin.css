@@ -1,0 +1,154 @@
+ /*************Main
+*****************/
+body, html{
+    background-color: #FDF9D4;
+    font-family:'Gilroy', sans-serif;
+}
+
+/*************Container
+*****************/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Signin i {
+    cursor: pointer;
+}
+
+/*************Top Section of 
+*****************Sign in Page
+*****************/
+.TopSec h1{
+    font-size: 36px;
+}
+.logo{
+    width: 148px;
+    height: 148px;
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.14);
+    margin: 0 auto;
+}
+.logo img {
+    width: 135px;
+    height: 99px;
+    padding: 23px 0px;
+}
+/*************Top Section of 
+*****************Sign in Page
+*****************/
+
+
+
+/*************
+***************** Sign in form
+*****************/
+
+/*input of Singin*/
+.Signin input{
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding: 18px;
+    width: 354px;
+    margin: 10px 0px 10px 0px;
+    color: #4F555A;
+    font-size: 16px;
+    border: 1px solid #EFEFEF;
+    font-family:'Gilroy', sans-serif;
+}
+
+
+form.Signin h1 {
+    font-weight: 700;
+    font-family:'Gilroy', sans-serif;
+    font-size: 28px;
+}
+.Signin input::placeholder {
+    font-family:'Gilroy', sans-serif;
+    color: #4F555A;
+    font: 16px;
+    font-weight: 500;
+}
+.Signin input:focus {
+    outline: none;
+}
+.Signin{
+    text-align: center;
+}
+form.Signin button {
+    cursor: pointer;
+    font-family: 'Gilroy', sans-serif;
+    background: #E02228;
+    box-shadow: 0px 10.5935px 18.5387px 3.53117px rgba(224, 34, 40, 0.17);
+    border-radius: 8.82793px;
+    border: none;
+    padding: 18px;
+    width: 393px;
+    color: #FFFFFF;
+    letter-spacing: 0.09em;
+    font-size: 16.7731px;
+    margin: 40px 0px 16px;
+    font-weight: 500;
+}
+.right {
+    position: relative;
+    left: 123px;
+    width: 50%;
+    margin: 0 auto;
+}
+a{
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: #888888;
+    font-weight: 500;
+    text-decoration: none;
+}
+ form.Signin i {
+    position: relative;
+    left: -40px;
+    color: #677185;
+}
+.inputsArea{
+    margin-top: 45px;
+}
+.inputsArea div{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+/*************
+***************** Sign in form
+*****************/
+
+
+
+
+
+
+/*************
+***************** Responsive and media query about 999px
+*****************/
+
+@media (max-width: 999px) {
+    .Signin button{
+        width: 70% !important;
+    }
+    .right{
+        left: 0px;
+    }
+    .Signin input {
+        width: 70%;
+    }
+    .inputsArea div{
+        width: 102%;
+    }
+  }
+
+
+
+/*************
+***************** Responsive and media query about 999px
+*****************/
