@@ -1,6 +1,5 @@
 {
   "name": "dalda-app",
-  "proxy": "http://61.5.135.10:75/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
