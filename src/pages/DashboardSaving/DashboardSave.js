@@ -24,7 +24,7 @@ export default function DashboardSave() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://connect.daldafoods.com:75/api/ideas/idea-status-count/${userid}`
+          `http://10.0.0.200:75/api/ideas/idea-status-count/${userid}`
         );
         setChartData(response.data);
       } catch (error) {
@@ -41,7 +41,7 @@ export default function DashboardSave() {
   const getAllUsers = async () => {
     try {
       const { data } = await axios.get(
-        `http://connect.daldafoods.com:75/api/auth/users-managed/${parseInt(auth.user.userid)}`
+        `http://10.0.0.200:75/api/auth/users-managed/${parseInt(auth.user.userid)}`
       );
       setUsers(data.users);
 
@@ -53,7 +53,7 @@ export default function DashboardSave() {
   const fetchIdeaStatusCounts = async (userid) => {
     try {
       const { data } = await axios.get(
-        `http://connect.daldafoods.com:75/api/ideas/idea-status-count/${userid}`
+        `http://10.0.0.200:75/api/ideas/idea-status-count/${userid}`
       );
       setIdeaStatusCounts((prevCounts) => ({
         ...prevCounts,

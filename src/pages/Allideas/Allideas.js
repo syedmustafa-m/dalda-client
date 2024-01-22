@@ -19,7 +19,7 @@ export default function Allideas() {
   //getting all Ideas by a single user
 const getAllIdeas=async()=>{
   try {
-    const {data}=await axios.get(`http://connect.daldafoods.com:75/api/ideas/get-idea`);
+    const {data}=await axios.get(`http://10.0.0.200:75/api/ideas/get-idea`);
     setIdeas(data.ideas);
 
   } catch (error) {
@@ -35,7 +35,7 @@ const handleApprove= (id)=>{
     let config = {
       method: 'put',
       maxBodyLength: Infinity,
-      url: `http://connect.daldafoods.com:75/api/ideas/update-status/${id}`,
+      url: `http://10.0.0.200:75/api/ideas/update-status/${id}`,
       headers: { 
         'Authorization': auth.token, 
         'Content-Type': 'application/json'
@@ -62,7 +62,7 @@ const handleRejected=async (id)=>{
   let config = {
     method: 'put',
     maxBodyLength: Infinity,
-    url: `http://connect.daldafoods.com:75/api/ideas/update-status/${id}`,
+    url: `http://10.0.0.200:75/api/ideas/update-status/${id}`,
     headers: { 
       'Authorization': auth.token, 
       'Content-Type': 'application/json'
