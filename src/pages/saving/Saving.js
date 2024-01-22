@@ -111,12 +111,12 @@ export default function Saving() {
         console.log(isEditingDraft, savedId);
 
         var { data } = axios.put(
-          `http://61.5.135.10:75/api/ideas/update-idea/${savedId}`,
+          `http://connect.daldafoods.com:75/api/ideas/update-idea/${savedId}`,
           ideaData1
         );
       } else {
         var { data } = axios.post(
-          "http://61.5.135.10:75/api/ideas/create-idea",
+          "http://connect.daldafoods.com:75/api/ideas/create-idea",
           ideaData
         );
       }
@@ -158,12 +158,12 @@ export default function Saving() {
       if (isEditingDraft) {
         console.log(isEditingDraft, savedId);
         var { data } = axios.put(
-          `http://61.5.135.10:75/api/ideas/update-idea/${savedId}`,
+          `http://connect.daldafoods.com:75/api/ideas/update-idea/${savedId}`,
           ideaData1
         );
       } else {
         var { data } = axios.post(
-          "http://61.5.135.10:75/api/ideas/create-idea",
+          "http://connect.daldafoods.com:75/api/ideas/create-idea",
           ideaData
         );
       }

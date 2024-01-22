@@ -21,7 +21,7 @@ export default function Signin() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-          const res = await axios.post("http://61.5.135.10:75/api/auth/login", {
+          const res = await axios.post("http://connect.daldafoods.com:75/api/auth/login", {
             userid: username,
             password
             

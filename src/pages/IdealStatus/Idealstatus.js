@@ -36,7 +36,7 @@ export default function Idealstatus() {
     const getAllIdeas = async () => {
         try {
             const { data } = await axios.get(
-                `http://61.5.135.10:75/api/ideas/idea-user/${auth.user.userid}`
+                `http://connect.daldafoods.com:75/api/ideas/idea-user/${auth.user.userid}`
             );
             setIdeas(data.ideas);
             console.log(data.ideas);
@@ -48,7 +48,7 @@ export default function Idealstatus() {
     const getAllUserIdeas = async () => {
         try {
             const { data } = await axios.get(
-                `http://61.5.135.10:75/api/auth/users-managed/${parseInt(
+                `http://connect.daldafoods.com:75/api/auth/users-managed/${parseInt(
                     auth.user.userid
                 )}`
             );
@@ -58,7 +58,7 @@ export default function Idealstatus() {
             // get all ideas for each user
             for (let i = 0; i < users.length; i++) {
                 const { data } = await axios.get(
-                    `http://61.5.135.10:75/api/ideas/idea-user/${users[i].userid}`
+                    `http://connect.daldafoods.com:75/api/ideas/idea-user/${users[i].userid}`
                 );
                 users[i].ideas = data.ideas;
                 // save all ideas in state
@@ -110,7 +110,7 @@ export default function Idealstatus() {
         let config = {
             method: "put",
             maxBodyLength: Infinity,
-            url: `http://61.5.135.10:75/api/ideas/update-status/${id}`,
+            url: `http://connect.daldafoods.com:75/api/ideas/update-status/${id}`,
             headers: {
                 Authorization: auth.token,
                 "Content-Type": "application/json",
@@ -136,7 +136,7 @@ export default function Idealstatus() {
         let config = {
             method: "put",
             maxBodyLength: Infinity,
-            url: `http://61.5.135.10:75/api/ideas/update-status/${id}`,
+            url: `http://connect.daldafoods.com:75/api/ideas/update-status/${id}`,
             headers: {
                 Authorization: auth.token,
                 "Content-Type": "application/json",
